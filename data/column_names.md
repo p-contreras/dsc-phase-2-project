@@ -1,22 +1,22 @@
 # Column Names and descriptions for Kings County Data Set
-* **id** - unique identified for a house
-* **dateDate** - house was sold
-* **pricePrice** -  is prediction target
-* **bedroomsNumber** -  of Bedrooms/House
-* **bathroomsNumber** -  of bathrooms/bedrooms
-* **sqft_livingsquare** -  footage of the home
-* **sqft_lotsquare** -  footage of the lot
-* **floorsTotal** -  floors (levels) in house
-* **waterfront** - House which has a view to a waterfront
-* **view** - Has been viewed
-* **condition** - How good the condition is ( Overall )
-* **grade** - overall grade given to the housing unit, based on King County grading system
-* **sqft_above** - square footage of house apart from basement
-* **sqft_basement** - square footage of the basement
-* **yr_built** - Built Year
-* **yr_renovated** - Year when house was renovated
+* **id** - unique identifier for a house
+* **date** - date of the home sale
+* **price** -  price of each home sold
+* **bedrooms** -  number of bedrooms
+* **bathrooms** -  number of bathrooms
+* **sqft_living** -  square footage of the house's interior living space
+* **sqft_lot** -  square footage of the land space
+* **floors** -  number of floors
+* **waterfront** - does the house have a view to the waterfront?
+* **view** - an index from 0 to 4 of how good the view of the property was
+* **condition** - an index from 1 to 5 on the condition of the house
+* **grade** - an index from 1 to 13, where 1-3 falls short of building construction and design, 7 has an average level of construction and design, and 11-13 have a high quality level of construction and design
+* **sqft_above** - square feet above ground
+* **sqft_basement** - square feet below ground
+* **yr_built** - the year the house was initially built
+* **yr_renovated** - the year of the house's last renovation (0 if never renovated)
 * **zipcode** - zip
-* **lat** - Latitude coordinate
-* **long** - Longitude coordinate
-* **sqft_living15** - The square footage of interior housing living space for the nearest 15 neighbors
-* **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
+* **lat** - latitude coordinate
+* **long** - longitude coordinate
+* **sqft_living15** - average size of interior housing living space for the closest 15 houses, in square feet
+* **sqft_lot15** - average size of land lot for the closest 15 houses, in square feet
